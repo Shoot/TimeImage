@@ -1,3 +1,4 @@
 pytz
 flask
 pillow
+waitress
