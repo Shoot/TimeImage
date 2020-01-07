@@ -1,0 +1,12 @@
+{
+	"image": "resources/background.png",
+	"timezone": "Australia/Queensland",
+	"font": {
+		"file": "resources/Montserrat-Bold.ttf",
+		"size": 140
+	},
+	"offset": {
+		"x": 0,
+		"y": 0
+	}
+}
