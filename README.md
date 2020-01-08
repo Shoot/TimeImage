@@ -12,3 +12,4 @@ Any configuration can be done in the `config.json` file, with the following valu
 - `"offset"` also has two values, `"x"` and `"y"`, each corresponding to added offset on the placement of the time.
 ## Running
 Start the `main.py` file, you should then be able to access it on `http://localhost`.
+A live example is available [here](http://dawn.sh:81) with the `America/New_York` timezone.
