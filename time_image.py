@@ -20,13 +20,13 @@ class TimeImage:
 			self.config = json.loads(file.read())
 
 		# Validate the config file
-		if not os.path.isfile(self.config['image']) and self.config['image']:
+		if not os.path.isfile(self.config['image']):
 			raise Exception('Invalid background image file')
 
 		if not self.config['timezone'] in pytz.all_timezones:
 			raise Exception('Invalid timezone')
 
-		if not os.path.isfile(self.config['font']['file']) and self.config['font']['file']:
+		if not os.path.isfile(self.config['font']['file']):
 			raise Exception('Invalid font file')
 
 	def current_time(self, timezone):
